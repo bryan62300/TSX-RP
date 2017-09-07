@@ -195,7 +195,7 @@ public Action Cmd_ItemPackEquipement(int args){
 
 	rp_SetClientInt(client, i_KnifeTrain, 100);
 	rp_SetClientInt(client, i_Esquive, 100);
-	rp_SetClientFloat(client, fl_WeaponTrain, 5.0);
+	rp_SetClientFloat(client, fl_WeaponTrain, 8.0);
 
 	FakeClientCommand(client, "say /item");
 
